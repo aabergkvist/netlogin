@@ -101,7 +101,9 @@ template {
     padding-bottom: 20px;
 }
 
-.input {
+.input,
+#input.input,
+input.input {
     margin: 0px;
     border: none;
     padding: 0px;
