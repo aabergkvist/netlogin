@@ -76,6 +76,24 @@ audio:not([controls]) {
 template {
   display: none; }
 
+
+/* Custom */
+
+#form1 {
+    width: 50%;
+    background-color: #eee;
+    margin: 0 auto;
+    padding-left: 28px;
+}
+
+.main-container,
+.large-6 {
+    height: 100%;
+}
+
+
+
+
 /* Links
      ========================================================================== */
 /**
