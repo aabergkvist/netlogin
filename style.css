@@ -109,6 +109,13 @@ input.input {
     padding: 0px;
 }
 
+#button {
+    background-color: #1795ca;
+    color: #fff;
+    text-transform: uppercase;
+    width: 95%;
+}
+
 .ctatop {
     height: 50%;
     background-color: #2c3e50;
