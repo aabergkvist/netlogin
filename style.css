@@ -146,9 +146,142 @@ input.input {
     margin-top:0px;
 }
 
+/* -----  Custom CSS By Shubham ----- */
 
+.left-container {
+    background-color: #f4f6f9;
+    display: block;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    width: 50%;
+  text-align: center;
+}
+.left-container .wrapper {   
+    margin: 20% auto 0;
+    width: 360px;
+}
+.right-container {
+    display: block;
+    float: right;
+    height: 100%;
+    text-align: center;
+    width: 50%;
+}
+.row-one, .row-two {
+    display: block;
+    height: 50%;
+    overflow: hidden;
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-opacity {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  height: 100%;
+}
+.row-one {
+    background-image: url("images/Kunden-5.jpg");    
+}
+.row-two {
+    background-image: url("images/Kunden-30.jpg");   
+}
+.right-container .wrapper {   
+    padding-top: 14%;    
+}
+.right-container .headline {
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: none;
+}
 
+.netlogo {
+    margin-bottom: 40px;
+}
 
+span.bold-text {
+    font-weight: bold;
+}
+div.form {
+    background-color: #ffffff;
+    border: 1px solid #d8dde6;
+    border-radius: 4px;
+    padding: 20px;
+}
+a.button-link {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+  font-weight: bold;
+}
+a.button-link:hover {   
+    color: #ffffff;
+    background-color: #1795ca;
+    border: 0px;   
+}
+div.form #button {
+    background-color: #0070d2;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+}
+div.form #button:hover {
+    background-color: #005fb2;
+}
+.input-pass, .input-user {
+    color: #54698d;
+    font-size: 12px;   
+    text-align: left;
+}
+.input-pass{   
+    margin-top: 15px;   
+}
+.remember-me {   
+    padding: 14px 0;
+    text-align: left;
+}
+label.remember-label {
+    color: #16325c;    
+    font-size: 14px;
+}
+.Custom-link {
+    border-top: 1px solid #f4f6f9;
+    margin-bottom: 20px;
+    padding-top: 16px;
+}
+.forgot_pass_link, .use_custom_domain_link {
+    font-size: 12px;
+}
+.forgot_pass_link {
+    float: left;
+}
+.use_custom_domain_link {
+    float: right;
+}
+.not-a-customer-link {
+    color: #000000;
+}
+.signup_link {
+    background-color: #ffffff;
+    border: 1px solid #d8dde6;
+    color: #0070d2 !important;
+  font-size: 14px;
+    padding: 12px 24px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.signup_link:hover {
+    background-color: #f4f6f9;
+}
+.signup-div {
+    display: inline-block;  
+    padding: 30px 0;
+}
 /* Links
      ========================================================================== */
 /**
@@ -2642,3 +2775,48 @@ html.is-reveal-open body {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+      
+@media only screen and (max-width: 769px){
+  
+  .left-container {   
+    height: auto;   
+    width: 100%;
+    padding: 30px 0;
+  }
+  .left-container .wrapper {
+    margin: 0 auto;   
+  }
+  .right-container {    
+    height: auto;
+    width: 100%;
+  }
+  .right-container .wrapper {
+    padding: 40px 20px;
+  }
+  .row-one, .row-two, .background-opacity {   
+    height: auto;   
+  }
+}
+@media only screen and (max-width: 515px){
+  a.button-link {   
+    padding: 11px 42px;
+  }
+  .right-container .headline {    
+    font-size: 30px;    
+  }
+}
+
+@media only screen and (max-width: 391px){
+  .left-container .wrapper {
+    width: 300px;
+  }
+  .right-container .headline {
+    font-size: 25px;
+  }
+  a.button-link {
+    font-size: 12px;
+    padding: 8px 33px;
+  }
+}
+  
+}
