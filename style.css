@@ -560,8 +560,8 @@ optgroup {
    */
 
 
-.body,
-.html,
+body,
+html,
 .main-container {
   height: 100%;
 }
