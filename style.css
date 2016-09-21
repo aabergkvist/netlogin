@@ -558,6 +558,15 @@ optgroup {
 /**
    * Remove most spacing between table cells.
    */
+
+
+.body,
+.html,
+.main-container {
+  height: 100%;
+}
+
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
